@@ -1,0 +1,703 @@
+/* Body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #1E90FF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Main section styling */
+  main {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  main h2 {
+    font-size: 28px;
+  }
+  
+  main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main ul li {
+    margin-bottom: 10px;
+  }
+  
+  main ul li a {
+    color: #1E90FF;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  main article {
+    margin-bottom: 20px;
+  }
+  
+  main article h2 {
+    font-size: 24px;
+  }
+  
+  main article p {
+    font-size: 18px;
+  }
+  
+  main article img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #1E90FF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* The following component relates to the navbar, with cool unique shapes */
+
+  nav {
+	background-color: #084d83;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	position: relative;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+nav a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px;
+	margin: 5px;
+	display: inline-block;
+	position: relative;
+    z-index: 2;
+    font-weight: bold;
+    
+}
+
+nav a:before {
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	border-radius: 50%;
+	transition: all 0.5s ease-in-out;
+    z-index: -1;
+}
+
+nav a:first-child:before {
+	background-color: rgb(221,160,221);
+}
+
+nav a:nth-child(2):before {
+	background-color: rgb(221,160,221);
+	
+}
+
+nav a:last-child:before {
+	background-color: rgb(221,160,221);
+	
+}
+
+nav a:hover:before {
+	transform: scale(1.1);
+}
+
+nav a:hover {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	margin: 5px;
+	display: inline-block;
+	position: relative;
+    z-index: 2;
+    transform: scale(1.2);
+}
+
+ /* Hero component styling */
+
+ .hero-banner {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url('los-angeles-downtown-buildings-night.jpg');
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  
+  
+  .hero-content {
+    text-align: center;
+
+  }
+  
+  .hero-image {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    position: relative;
+
+    filter: brightness(0.9) saturate(0%);
+    
+  }
+  
+  .hero-linkedin {
+    text-decoration: none;
+  }
+  
+  .hero-box {
+    display: inline-block;
+    background-color: #1E90FF;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+
+  }
+  
+  .hero-box:hover {
+    background-color: #3cb0fd;
+  }
+  
+  .hero-box p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .hero-banner .name 
+  {
+    position: relative;
+  }
+
+
+   /* Experiences component styling */
+
+   .experiences {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    background-color: #084e8396;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  
+  .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.801);
+  }
+  
+  .experience-info {
+    text-align: center;
+  }
+  
+  .experience-info h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .experience-image {
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .experience-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+
+  .startmate img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+   
+    
+  }
+  
+/* this was added to allow me to cause breaks in between website sections*/
+.space h1
+{
+    display: flex;
+    justify-content: center;
+    background-color: #084d83;
+    margin: 0;
+    padding: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.space a
+
+{
+    text-decoration-line: none;
+}
+
+/* this is too add the about me section in the home page */
+
+.about-me-container {
+    background-color: #3cb0fd;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin: 1px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .about-me-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: right;
+    position: relative;
+    justify-content: end;
+    align-content: center;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .about-me-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-me-image img:hover {
+    box-shadow: 0 0 30px 10px yellow;
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+
+  .about-me-container:hover
+  {
+    box-shadow: 0 0 30px 10px yellow;
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  
+  .about-me-container:hover
+  {
+    box-shadow: 0 0 30px 10px yellow;
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+
+  .about-me-image img:hover
+
+  {
+    box-shadow: 0 0 30px 10px yellow;
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+
+  /* this is for the blog section on the home page */
+
+  .blog-section {
+    padding: 50px;
+    background-color: #18769b;
+    margin: 1px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+  }
+  
+  .blog-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    padding: 30px;
+    border: 2px solid white;
+    background-color: #18769bc7;
+    height: auto;
+    width: auto;
+    box-shadow: 0px 0px 10px 1px #ccc;
+    font-family: 'Roboto', sans-serif;
+
+
+
+  }
+  
+  /*.blog-section h2
+   {
+    display: block;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+  }*/
+  
+  .blog-post h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+  }
+
+  .blog-post .clicked {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+    color: white;
+  }
+  
+  .blog-post time {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .blog-post .readme {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 2px;
+  }
+  
+  .blog-post .readme:hover {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+
+  /* this is the footer */
+
+ footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #084d83;
+  padding: 20px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 0;
+  text-decoration-line: none;
+}
+
+.footer-icons a {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.footer-icons i {
+  font-size: 20px;
+  text-decoration-line: none;
+}
+
+.footer-contact {
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer-contact h4 {
+  margin-bottom: 10px;
+}
+
+.footer-contact form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-contact label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footer-contact input, .footer-contact textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.footer-contact button[type="submit"] {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.footer-contact button[type="submit"]:hover {
+  background-color: #fff;
+  color: #ff8c00;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .namebox,
+  .email,
+  .messagebox {
+    padding: 10px;
+  }
+
+
+  /* this is for the experiences page */
+.work-history h1
+{
+    display: flex;
+    justify-content: center;
+    background-color: #18769b;
+    margin: 0;
+    padding: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.jobscontainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1px 1px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    box-shadow: 0px 0px 10px #3f51b5;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 20px;
+    background-color: #b3e5fc;
+
+    
+  }
+  
+  .appetiserbox, .startmatebox, .trillionbox, .unibox {
+    width: 23%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+  }
+  
+  .appetiserbox h2, .startmatebox h2, .trillionbox h2, .unibox h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .appetiserbox p, .startmatebox p, .trillionbox p, .unibox p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .appetiserbox {
+    background-color: #c9e9f8;
+  }
+  
+  .startmatebox {
+    background-color: #f8c9c9;
+  }
+  
+  .trillionbox {
+    background-color: #c9f8c9;
+  }
+  
+  .unibox {
+    background-color: #f1c9f8;
+  }
+  
+  .unibox .resume {
+    display: inline-block;
+    background-color: #b3e5fc;
+    color: #fff;
+    padding: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 10px;
+  }
+  
+  .unibox .resume:hover {
+    background-color: #b3e5fc;
+    border: 2px solid black;
+  }
+
+  /* i had extra white padding in random areas of text so i did this to get rid of it*/
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #3cb0fd;
+
+  }
+
+  /* this is for the about me page*/
+
+  .about-me {
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #b3e5fc;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+
+  }
+  
+  .about-me__title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 1px;
+    
+    
+
+  }
+  
+  .about-me__photo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+  }
+
+  .about-me img {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+
+  }
+  
+  .about-me img:hover {
+    box-shadow: 0 0 20px 10px #3f51b5;
+
+  }
+  
+
+  .about-me__intro {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .about-me__skills {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .about-me__hobbies {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* this is for the blog post*/
+
+  .blog-post img {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+  }
+  
