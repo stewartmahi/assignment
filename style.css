@@ -1,3 +1,5 @@
+
+/*this is generalised styling text used throughout the entire website*/
 /* Body styling */
 body {
     font-family: 'Roboto', sans-serif;
@@ -127,18 +129,8 @@ nav a:before {
     z-index: -1;
 }
 
-nav a:first-child:before {
+nav a:before {
 	background-color: rgb(221,160,221);
-}
-
-nav a:nth-child(2):before {
-	background-color: rgb(221,160,221);
-	
-}
-
-nav a:last-child:before {
-	background-color: rgb(221,160,221);
-	
 }
 
 nav a:hover:before {
