@@ -1,92 +1,4 @@
 
-/*this is generalised styling text used throughout the entire website*/
-/* Body styling */
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-  }
-  
-  /* Header styling */
-  header {
-    background-color: #1E90FF;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 32px;
-  }
-  
-  header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  /* Main section styling */
-  main {
-    padding: 20px;
-    margin: 20px;
-  }
-  
-  main h2 {
-    font-size: 28px;
-  }
-  
-  main ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  main ul li {
-    margin-bottom: 10px;
-  }
-  
-  main ul li a {
-    color: #1E90FF;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  main article {
-    margin-bottom: 20px;
-  }
-  
-  main article h2 {
-    font-size: 24px;
-  }
-  
-  main article p {
-    font-size: 18px;
-  }
-  
-  main article img {
-    display: block;
-    margin: 10px auto;
-    max-width: 100%;
-  }
-  
-  /* Footer styling */
-  footer {
-    background-color: #1E90FF;
-    color: white;
-    padding: 10px;
-    text-align: center;
-  }
 
   /* The following component relates to the navbar, with cool unique shapes */
 
@@ -154,7 +66,6 @@ nav a:hover {
 
  .hero-banner {
     height: 400px;
-    background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
@@ -693,3 +604,91 @@ form {
     background-color: yellow;
   }
   
+  /*this is generalised styling text used throughout the entire website*/
+/* Body styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+/* Header styling */
+header {
+  background-color: #1E90FF;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Main section styling */
+main {
+  padding: 20px;
+  margin: 20px;
+}
+
+main h2 {
+  font-size: 28px;
+}
+
+main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+main ul li {
+  margin-bottom: 10px;
+}
+
+main ul li a {
+  color: #1E90FF;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+main article {
+  margin-bottom: 20px;
+}
+
+main article h2 {
+  font-size: 24px;
+}
+
+main article p {
+  font-size: 18px;
+}
+
+main article img {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+}
+
+/* Footer styling */
+footer {
+  background-color: #1E90FF;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
