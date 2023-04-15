@@ -1,6 +1,7 @@
 # assignment
+# assignment
 
-A link (URL) to your published portfolio website - https://master--magical-lolly-d4ad85.netlify.app/index.html
+A link (URL) to your published portfolio website - https://master--magical-lolly-d4ad85.netlify.app/
 
 A link to your GitHub repo - https://github.com/stewartmahi/assignment.git
 
